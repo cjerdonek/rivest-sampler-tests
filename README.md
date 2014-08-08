@@ -4,7 +4,6 @@ Test Cases for Rivest Sampling Algorithm
 The purpose of this repository is to provide test cases for the
 simple [SHA-256][sha-256] pseudo-random sampling algorithm described by
 [Ronald L. Rivest][rivest].
-
 This algorithm is especially suitable for things like selecting precincts
 at random for an election audit.
 
@@ -14,6 +13,11 @@ along with a description, can be found on Rivest's web site.
 [browser implementation][browser-impl] on his web site.
 The test cases in this repository can be used to help check that new
 implementations are correct.
+
+The contents of this repository are licensed under a BSD 3-clause license,
+unless indicated otherwise.  For example, the reference implementation
+was released under the MIT License.  See the [`LICENSE`](LICENSE) file
+for the BSD license.
 
 
 Test Details
