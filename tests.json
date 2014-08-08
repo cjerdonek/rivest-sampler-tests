@@ -1,0 +1,14 @@
+[
+    {
+        "data": {
+            "count": 3,
+            "seed": "abcde",
+            "total": 1000
+        },
+        "expected": [
+            247,
+            427,
+            157
+        ]
+    }
+]
