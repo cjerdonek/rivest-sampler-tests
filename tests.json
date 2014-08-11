@@ -1,74 +1,76 @@
-[
-    {
-        "data": {
-            "count": 3,
-            "seed": "0",
-            "total": 1000
+{
+    "tests": [
+        {
+            "data": {
+                "count": 3,
+                "seed": "0",
+                "total": 1000
+            },
+            "expected": [
+                905,
+                573,
+                160
+            ]
         },
-        "expected": [
-            905,
-            573,
-            160
-        ]
-    },
-    {
-        "data": {
-            "count": 3,
-            "seed": "0",
-            "total": 2
+        {
+            "data": {
+                "count": 3,
+                "seed": "0",
+                "total": 2
+            },
+            "expected": [
+                1,
+                1,
+                2
+            ]
         },
-        "expected": [
-            1,
-            1,
-            2
-        ]
-    },
-    {
-        "data": {
-            "count": 3,
-            "seed": "1",
-            "total": 1000
+        {
+            "data": {
+                "count": 3,
+                "seed": "1",
+                "total": 1000
+            },
+            "expected": [
+                97,
+                89,
+                163
+            ]
         },
-        "expected": [
-            97,
-            89,
-            163
-        ]
-    },
-    {
-        "data": {
-            "count": 3,
-            "seed": "0000000000",
-            "total": 1000
+        {
+            "data": {
+                "count": 3,
+                "seed": "0000000000",
+                "total": 1000
+            },
+            "expected": [
+                978,
+                359,
+                132
+            ]
         },
-        "expected": [
-            978,
-            359,
-            132
-        ]
-    },
-    {
-        "data": {
-            "count": 3,
-            "seed": "999999999999999999999999",
-            "total": 1000
+        {
+            "data": {
+                "count": 3,
+                "seed": "999999999999999999999999",
+                "total": 1000
+            },
+            "expected": [
+                544,
+                800,
+                654
+            ]
         },
-        "expected": [
-            544,
-            800,
-            654
-        ]
-    },
-    {
-        "data": {
-            "count": 3,
-            "seed": "abcde",
-            "total": 1000
-        },
-        "expected": [
-            247,
-            427,
-            157
-        ]
-    }
-]
+        {
+            "data": {
+                "count": 3,
+                "seed": "abcde",
+                "total": 1000
+            },
+            "expected": [
+                247,
+                427,
+                157
+            ]
+        }
+    ]
+}
