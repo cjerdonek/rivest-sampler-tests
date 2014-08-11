@@ -1,23 +1,22 @@
 Test Cases for Rivest Sampling Algorithm
 ========================================
 
-The purpose of this repository is to provide test cases for the
-simple [SHA-256][sha-256] pseudo-random sampling algorithm described by
+The purpose of this repository is to make test cases publicly available
+for the [SHA-256][sha-256] pseudo-random sampling algorithm described by
 [Ronald L. Rivest][rivest].
-This algorithm is especially suitable for things like selecting precincts
-at random for an election audit.
+
+The Rivest sampling algorithm is especially suitable for things like
+selecting precincts at random for an election audit.
+
+The test cases in this repository can be used to help check that new
+implementations are correct.
 
 The [reference implementation][ref-impl] of the algorithm (written in Python),
 along with a description, can be found on Rivest's web site.
 [Philip B. Stark][stark] also has an online
 [browser implementation][browser-impl] on his web site.
-The test cases in this repository can be used to help check that new
-implementations are correct.
-
-The contents of this repository are licensed under a BSD 3-clause license,
-unless indicated otherwise.  For example, the reference implementation
-was released under the MIT License.  See the [`LICENSE`](LICENSE) file
-for the BSD license.
+An AngularJS implementation called [`free-sampler`][free-sampler]
+is also in progress.
 
 
 Test Details
@@ -33,8 +32,21 @@ reference implementation downloaded from Rivest's web site on August 8, 2014.
 For convenience, we have included a copy of the downloaded implementation
 in this repository as the file [`sampler.py`](sampler.py).
 
+The test cases were also checked using [`free-sampler`][free-sampler].
+
+
+License
+-------
+
+The contents of this repository are licensed under a BSD 3-clause license,
+unless indicated otherwise.  See the [`LICENSE`](LICENSE) file
+for the BSD license.  Note that Rivest's reference implementation,
+which this repository contains a copy of, is licensed under
+the MIT License and not BSD.
+
 
 [browser-impl]: http://www.stat.berkeley.edu/~stark/Java/Html/sha256Rand.htm
+[free-sampler]: https://github.com/cjerdonek/free-sampler
 [ref-impl]: http://people.csail.mit.edu/rivest/sampler.py
 [rivest]: http://people.csail.mit.edu/rivest/
 [sha-256]: http://en.wikipedia.org/wiki/SHA-2
