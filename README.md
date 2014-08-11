@@ -5,8 +5,8 @@ The purpose of this repository is to make test cases publicly available
 for the [SHA-256][sha-256] pseudo-random sampling algorithm described by
 [Ronald L. Rivest][rivest] in 2011.
 
-The Rivest sampling algorithm is especially suitable for things like
-selecting precincts at random for an election audit.
+The Rivest sampling algorithm is for things like selecting precincts
+at random for an election audit.
 The test cases in this repository can be used to help check that new
 implementations are correct.
 
@@ -33,6 +33,9 @@ in this repository as the file [`sampler.py`](sampler.py).
 
 The test cases were also checked using [`free-sampler`][free-sampler].
 
+For convenience, this repository has a [`bower.json`](bower.json) file,
+which allows one to install its files using [Bower](http://bower.io/).
+
 
 License
 -------
@@ -42,6 +45,12 @@ unless indicated otherwise.  See the [`LICENSE`](LICENSE) file
 for the BSD license.  Note that Rivest's reference implementation,
 which this repository contains a copy of, is licensed under
 the MIT License and not BSD.
+
+
+Author
+------
+
+Chris Jerdonek (<chris.jerdonek@gmail.com>)
 
 
 [browser-impl]: http://www.stat.berkeley.edu/~stark/Java/Html/sha256Rand.htm
