@@ -1,5 +1,9 @@
 {
   "name": "rivest-sampler-tests",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cjerdonek/rivest-sampler-tests.git"
+  },
   "homepage": "https://github.com/cjerdonek/rivest-sampler-tests",
   "authors": [
     "Chris Jerdonek <chris.jerdonek@gmail.com>"
@@ -14,7 +18,8 @@
     "audit",
     "precincts",
     "random",
-    "tests"
+    "tests",
+    "test-cases"
   ],
   "license": "BSD-3-Clause",
   "ignore": [
