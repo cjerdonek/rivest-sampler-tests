@@ -1,5 +1,6 @@
 {
   "name": "rivest-sampler-tests",
+  "description": "Test cases for Ronald L. Rivest's pseudo-random sampling algorithm",
   "repository": {
     "type": "git",
     "url": "git://github.com/cjerdonek/rivest-sampler-tests.git"
@@ -8,7 +9,6 @@
   "authors": [
     "Chris Jerdonek <chris.jerdonek@gmail.com>"
   ],
-  "description": "Test cases for Ronald L. Rivest's pseudo-random sampler algorithm",
   "main": "tests.json",
   "keywords": [
     "rivest",
