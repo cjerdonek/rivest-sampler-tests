@@ -43,7 +43,8 @@ Deployment
 ----------
 
 For convenience, this repository has a [`bower.json`](bower.json) file,
-which allows one to install its files using [Bower](http://bower.io/).
+which lets one include the test cases in another web application
+using [Bower](http://bower.io/).
 
 
 License
