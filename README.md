@@ -21,8 +21,8 @@ along with a description, can be found on Rivest's web site.
 Other implementations include--
 
 * an AngularJS browser implementation called [Quick Sampler][quick-sampler]
-  developed by Chris Jerdonek, and
-* an earlier [browser implementation][browser-impl] developed by
+  by Chris Jerdonek, and
+* an earlier [browser implementation][browser-impl] by
   [Philip B. Stark][stark].
 
 
