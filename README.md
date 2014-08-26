@@ -30,8 +30,13 @@ Test Details
 ------------
 
 The tests are located in the file [`tests.json`](tests.json).
+
 The sample range for each test is the list of whole numbers from 1 to
 the upper limit `total`.  The tests were run "allowing duplicates."
+
+For the purposes of the random seed text, we follow the convention that
+strings are UTF-8 encoded (e.g. prior to hashing).  At least one test case
+has a seed containing a non-ASCII Unicode character.
 
 The test cases were checked using Python 2.6.9 and the
 reference implementation downloaded from Rivest's web site on August 8, 2014.
