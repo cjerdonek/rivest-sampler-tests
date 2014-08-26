@@ -17,10 +17,13 @@ at random for an election audit.
 
 The [reference implementation][ref-impl] of the algorithm (written in Python),
 along with a description, can be found on Rivest's web site.
-[Philip B. Stark][stark] also has an online
-[browser implementation][browser-impl] on his web site.
-An AngularJS implementation called [`free-sampler`][free-sampler]
-is also in progress.
+
+Other implementations include--
+
+* an AngularJS implementation called [Quick Sampler][quick-sampler]
+  developed by Chris Jerdonek for the browser, and
+* an earlier [browser implementation][browser-impl] developed by
+  [Philip B. Stark][stark].
 
 
 Test Details
@@ -36,7 +39,7 @@ reference implementation downloaded from Rivest's web site on August 8, 2014.
 For convenience, we included a copy of that download in this repository
 as the file [`sampler.py`](sampler.py).
 
-The test cases were also checked using [`free-sampler`][free-sampler].
+The test cases were also checked using [Quick Sampler][quick-sampler].
 
 
 Deployment
@@ -64,7 +67,7 @@ Chris Jerdonek (<chris.jerdonek@gmail.com>)
 
 
 [browser-impl]: http://www.stat.berkeley.edu/~stark/Java/Html/sha256Rand.htm
-[free-sampler]: https://github.com/cjerdonek/free-sampler
+[quick-sampler]: https://github.com/cjerdonek/quick-sampler
 [ref-impl]: http://people.csail.mit.edu/rivest/sampler.py
 [rivest]: http://people.csail.mit.edu/rivest/
 [sha-256]: http://en.wikipedia.org/wiki/SHA-2
