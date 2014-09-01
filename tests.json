@@ -3,6 +3,18 @@
         {
             "data": {
                 "count": 3,
+                "seed": "abc123",
+                "total": 1000
+            },
+            "expected": [
+                455,
+                764,
+                629
+            ]
+        },
+        {
+            "data": {
+                "count": 3,
                 "seed": "0",
                 "total": 1000
             },
