@@ -15,8 +15,9 @@ Algorithm Background
 The Rivest sampling algorithm is for things like selecting precincts
 at random for an election audit.
 
-The [reference implementation][ref-impl] of the algorithm (written in Python),
-along with a description, can be found on Rivest's web site.
+The reference implementation of the algorithm (written in Python), along
+with a description by Rivest, can be found [here][ref-impl] on Rivest's
+web site.
 
 Other implementations include--
 
@@ -38,10 +39,11 @@ For the purposes of the random seed text, we follow the convention that
 strings should be UTF-8 encoded prior to hashing.  At least one test case
 has a seed containing a non-ASCII Unicode character.
 
-The test cases were checked using Python 2.6.9 and the
-reference implementation downloaded from Rivest's web site on August 8, 2014.
+The test cases were checked with Python 2.6.9 and the reference
+implementation downloaded from Rivest's web site on August 8, 2014
+with [`sampler_version`][sampler-version] "November 14, 2011."
 (The implementation states that it was checked using Python 2.6.7.)
-For convenience, we included a copy of that download in this repository
+For convenience, we include a copy of that download in this repository
 as the file [`sampler.py`](sampler.py).
 
 The test cases were also checked using [Quick Sampler][quick-sampler].
@@ -58,7 +60,7 @@ using [Bower](http://bower.io/).
 For Maintainers
 ---------------
 
-To deploy a new version, bump the `version` number in
+To deploy a new version, bump the [`"version"`][version-number] number in
 [`tests.json`](tests.json), and tag the release with a [SemVer][semver]
 Git tag (it is okay to add a prefix of "v").  For example--
 
@@ -89,6 +91,8 @@ Chris Jerdonek (<chris.jerdonek@gmail.com>)
 [quick-sampler]: https://github.com/cjerdonek/quick-sampler
 [ref-impl]: http://people.csail.mit.edu/rivest/sampler.py
 [rivest]: http://people.csail.mit.edu/rivest/
+[sampler-version]: https://github.com/cjerdonek/rivest-sampler-tests/blob/master/sampler.py#L6
 [semver]: http://semver.org/
 [sha-256]: http://en.wikipedia.org/wiki/SHA-2
 [stark]: http://www.stat.berkeley.edu/~stark/
+[version-number]: https://github.com/cjerdonek/rivest-sampler-tests/blob/master/tests.json#L2
