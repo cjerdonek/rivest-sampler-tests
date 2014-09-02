@@ -55,6 +55,20 @@ which lets one include the test cases in another web application
 using [Bower](http://bower.io/).
 
 
+For Maintainers
+---------------
+
+To deploy a new version, bump the `version` number in
+[`tests.json`](tests.json), and tag the release with a [SemVer][semver]
+Git tag (it is okay to add a prefix of "v").  For example--
+
+    $ git tag v0.2.0
+    $ git push origin v0.2.0
+
+Note that the [Bower spec](https://github.com/bower/bower.json-spec#version)
+says to leave the version number out of `bower.json`.
+
+
 License
 -------
 
@@ -75,5 +89,6 @@ Chris Jerdonek (<chris.jerdonek@gmail.com>)
 [quick-sampler]: https://github.com/cjerdonek/quick-sampler
 [ref-impl]: http://people.csail.mit.edu/rivest/sampler.py
 [rivest]: http://people.csail.mit.edu/rivest/
+[semver]: http://semver.org/
 [sha-256]: http://en.wikipedia.org/wiki/SHA-2
 [stark]: http://www.stat.berkeley.edu/~stark/
