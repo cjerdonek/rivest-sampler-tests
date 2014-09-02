@@ -61,7 +61,7 @@ For Maintainers
 ---------------
 
 To deploy a new version, bump the [`"version"`][version-number] number in
-[`tests.json`](tests.json), and tag the release with a [SemVer][semver]
+`tests.json`, and tag the release with a [SemVer][semver]
 Git tag (it is okay to add a prefix of "v").  For example--
 
     $ git tag v0.2.0
