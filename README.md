@@ -38,7 +38,7 @@ the upper limit `total`.  The tests should be run "allowing duplicates."
 For the purposes of the random seed text, we follow the convention that
 strings should be UTF-8 encoded prior to hashing.  The tests include
 some test cases with non-ASCII seeds, and at least one seed has a
-[non-BMP Unicode character](http://en.wikipedia.org/wiki/Plane_(Unicode)).
+[non-BMP Unicode character][unicode-non-bmp].
 
 The test cases were checked with Python 2.6.9 and the reference
 implementation downloaded from Rivest's web site on August 8, 2014
@@ -96,4 +96,5 @@ Chris Jerdonek (<chris.jerdonek@gmail.com>)
 [semver]: http://semver.org/
 [sha-256]: http://en.wikipedia.org/wiki/SHA-2
 [stark]: http://www.stat.berkeley.edu/~stark/
+[unicode-non-bmp]: http://en.wikipedia.org/wiki/Plane_(Unicode)#Basic_Multilingual_Plane
 [version-number]: https://github.com/cjerdonek/rivest-sampler-tests/blob/master/tests.json#L2
