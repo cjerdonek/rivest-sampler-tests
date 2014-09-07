@@ -86,6 +86,24 @@
             ]
         },
         {
+            "notes": [
+                "This is the example given in the reference implementation ",
+                "dated November 14, 2011."
+            ],
+            "data": {
+                "count": 5,
+                "seed": "3546311556112163624615351222",
+                "total": 876
+            },
+            "expected": [
+                740,
+                180,
+                264,
+                789,
+                238
+            ]
+        },
+        {
             "data": {
                 "count": 3,
                 "seed": "snowman: \u2603",
