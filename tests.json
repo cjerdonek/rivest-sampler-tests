@@ -114,6 +114,29 @@
                 56,
                 46
             ]
+        },
+        {
+            "notes": [
+                "This test case tests having a non-BMP Unicode character ",
+                "in the seed, which is a character with a code point ",
+                "greater than 65,536.  This case is special because ",
+                "such characters are represented in Javascript strings ",
+                "by two characters.  Such a pair of characters is known ",
+                "as a surrogate pair.  In this case the seed is the ",
+                "emoticon Unicode character GRINNING FACE (U+1F600)."
+            ],
+            "data": {
+                "count": 5,
+                "seed": "\ud83d\ude00",
+                "total": 1000
+            },
+            "expected": [
+                596,
+                415,
+                303,
+                11,
+                141
+            ]
         }
     ]
 }
