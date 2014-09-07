@@ -33,11 +33,12 @@ Test Details
 The tests are located in the file [`tests.json`](tests.json).
 
 The sample range for each test is the list of whole numbers from 1 to
-the upper limit `total`.  The tests were run "allowing duplicates."
+the upper limit `total`.  The tests should be run "allowing duplicates."
 
 For the purposes of the random seed text, we follow the convention that
-strings should be UTF-8 encoded prior to hashing.  At least one test case
-has a seed containing a non-ASCII Unicode character.
+strings should be UTF-8 encoded prior to hashing.  The tests include
+some test cases with non-ASCII seeds, and at least one seed has a
+[non-BMP Unicode character](http://en.wikipedia.org/wiki/Plane_(Unicode)).
 
 The test cases were checked with Python 2.6.9 and the reference
 implementation downloaded from Rivest's web site on August 8, 2014
