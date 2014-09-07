@@ -71,8 +71,8 @@
         },
         {
             "notes": [
-                "This is the example given in the reference implementation ",
-                "dated November 14, 2011."
+                "This is the example given in Ronald L. Rivest's reference ",
+                "implementation dated November 14, 2011."
             ],
             "data": {
                 "count": 5,
