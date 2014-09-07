@@ -4,6 +4,30 @@
         {
             "data": {
                 "count": 3,
+                "seed": "1",
+                "total": 1000
+            },
+            "expected": [
+                97,
+                89,
+                163
+            ]
+        },
+        {
+            "data": {
+                "count": 3,
+                "seed": "abcde",
+                "total": 1000
+            },
+            "expected": [
+                247,
+                427,
+                157
+            ]
+        },
+        {
+            "data": {
+                "count": 3,
                 "seed": "abc123",
                 "total": 1000
             },
@@ -11,6 +35,21 @@
                 455,
                 764,
                 629
+            ]
+        },
+        {
+            "notes": [
+                "Test an example yielding a duplicate selection."
+            ],
+            "data": {
+                "count": 3,
+                "seed": "0",
+                "total": 2
+            },
+            "expected": [
+                1,
+                1,
+                2
             ]
         },
         {
@@ -26,30 +65,11 @@
             ]
         },
         {
-            "data": {
-                "count": 3,
-                "seed": "0",
-                "total": 2
-            },
-            "expected": [
-                1,
-                1,
-                2
-            ]
-        },
-        {
-            "data": {
-                "count": 3,
-                "seed": "1",
-                "total": 1000
-            },
-            "expected": [
-                97,
-                89,
-                163
-            ]
-        },
-        {
+            "notes": [
+                "Check that the seed '00' yields a result different ",
+                "from '0'.  In particular, a numeric string is not first ",
+                "parsed to an integer."
+            ],
             "data": {
                 "count": 3,
                 "seed": "0000000000",
@@ -74,18 +94,6 @@
             ]
         },
         {
-            "data": {
-                "count": 3,
-                "seed": "abcde",
-                "total": 1000
-            },
-            "expected": [
-                247,
-                427,
-                157
-            ]
-        },
-        {
             "notes": [
                 "This is the example given in the reference implementation ",
                 "dated November 14, 2011."
@@ -104,6 +112,9 @@
             ]
         },
         {
+            "notes": [
+                "Test a seed containing a non-ASCII character."
+            ],
             "data": {
                 "count": 3,
                 "seed": "snowman: \u2603",
