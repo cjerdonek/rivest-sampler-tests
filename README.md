@@ -35,9 +35,8 @@ The tests are located in the file [`tests.json`](tests.json).
 The sample range for each test is the list of whole numbers from 1 to
 the upper limit `total`.  The tests should be run "allowing duplicates."
 
-For the purposes of the random seed text, we follow the convention that
-strings should be UTF-8 encoded prior to hashing.  The tests include
-some test cases with non-ASCII seeds, and at least one seed has a
+To check that UTF-8 is used for encoding, the tests include some test cases
+with non-ASCII seed values, and at least one test case has a seed with a
 [non-BMP Unicode character][unicode-non-bmp].
 
 The test cases were checked with Python 2.6.9 and the reference
